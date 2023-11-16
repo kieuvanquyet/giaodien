@@ -16,10 +16,11 @@ header {
     height: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Căn giữa các phần tử trong header */
+     /* Căn giữa các phần tử trong header */
+    align-items: center;
     position: fixed;
     width: 100%;
-    
+    /* position: relative; */
 }
 .placeholder {
     height: 100px; /* Đặt chiều cao tương đương với thanh header */
@@ -28,23 +29,32 @@ header {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    margin-right: 10px;
+    padding-right: 10px;
 }
-
+.menu{
+    height: 40px;
+    background-color: #00472C;
+    align-items: center;
+}
 nav ul {
     list-style: none;
     display: flex;
+    /* align-items: center; */
+    padding-top:10px ;
 }
 
 nav ul li {
-    margin-left: 30px;
+    margin-left: 80px;
+    
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #000000;
+    color:  #ffffff;
 }
 nav ul li a:hover{
-    color: rgb(0, 255, 229);
+    color: #c6c6c6;
 }
 .search {
     margin-left: 20px;
@@ -53,11 +63,13 @@ nav ul li a:hover{
 .search input {
     padding: 5px;
     border: 1px solid gray;
-    border-radius: 3px;
+    border-radius: 15px;
+    width: 700px;
+    
 }
 
 .login {
-    margin-right: 80px;
+    /* margin-left: 0px; */
     
 }
 .button{
@@ -74,7 +86,7 @@ nav ul li a:hover{
     background-color: #0093ad;
 
 }
-.login-button {
+.btn-button {
     background-color: #00d9ff;
     
     color: #fff;
@@ -89,7 +101,7 @@ nav ul li a:hover{
     align-items: center; /* Căn giữa biểu tượng và văn bản trong nút */
 }
 
-.login-button:hover {
+.btn-button:hover {
     background-color: #0093ad;
 }
 
@@ -123,6 +135,9 @@ nav ul li a:hover{
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+.product:hover{
+    cursor: pointer;
 }
 
 .product img {
