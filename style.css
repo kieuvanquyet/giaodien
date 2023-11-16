@@ -73,7 +73,7 @@ nav ul li a:hover{
     
 }
 .button{
-    background: #00d9ff;
+    background: #F09116;
     width: 90px;
     color: #fff;
     border: none;
@@ -87,7 +87,7 @@ nav ul li a:hover{
 
 }
 .btn-button {
-    background-color: #00d9ff;
+    background-color: #F09116;
     
     color: #fff;
     width: 90px;
@@ -155,12 +155,13 @@ nav ul li a:hover{
 }
 
 .add-to-cart {
-    background-color: #333;
+    background-color: #F09116;
     color: #fff;
     padding: 5px 10px;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    border-radius: 5px;
 }
 
 .add-to-cart:hover {
